@@ -77,7 +77,10 @@ body{
     color: var(--title-color);
 }
 
-
+#main-container h3:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
 
 #nft-cost-releast-date{
     display: flex;
@@ -117,6 +120,11 @@ body{
 #nft-creator #creator-name{
     margin-left: 2px;
     color: var(--title-color);
+} 
+
+#nft-creator #creator-name:hover{
+    color: var(--text-color);
+    cursor: pointer;
 } 
 
 .img{
